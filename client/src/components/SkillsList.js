@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios'
 import styled from 'styled-components'
 
+
 class SkillsList extends Component {
 
   state = {
@@ -20,6 +21,9 @@ class SkillsList extends Component {
   render() {
     return (
       <div>
+        <div>
+
+        </div>
         <h1>Skill Set</h1>
         <div>
           {this.state.skills.map(skill => {
