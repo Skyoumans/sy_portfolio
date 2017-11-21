@@ -1,9 +1,10 @@
-class CreateProjects < ActiveRecord::Migration[5.1]
+class Project < ActiveRecord::Migration[5.1]
   def change
-    create_table :projects do |t|
+    create_table :skills do |t|
       t.string :title
       t.string :desc
       t.string :link_at
+      t.string :img 
 
       t.timestamps
     end

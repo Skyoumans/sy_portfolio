@@ -19,3 +19,9 @@ Project.create({title: "Connect Four", desc: "This was my very first project, wh
 Project.create({title: "Stream", desc: "For my second project, I created a movie streaming web site.  I used Express, Handlebars, and Materialize for this project. Definitely the most fun project I made.", link_at: "https://limitless-citadel-16097.herokuapp.com"})
 Project.create({title: "Doggo", desc: "My third project was a hit home for me. I recently had to rehome my pet and so I created this project in her name. Doggo is an application to help an owner rehome their pets. It was my first project in React and CSS and I definitly became better with React after creating it.", link_at: "https://doggo-adopts.herokuapp.com/login"})
 Project.create({title: "Muscle Memory", desc: "The final project was created using React on Rails and CSS. I soon realized that this project quickly became the most complex of all my projects, and so I was determined to make it the best. I succeeded.", link_at: "https://musclememory.herokuapp.com/"})
+
+
+img: "https://i.imgur.com/wT1aZ7zm.png",
+img: "https://i.imgur.com/FeefhTOm.png",
+img: "https://i.imgur.com/sSeXdw5m.png",
+img: "https://i.imgur.com/ELHfYR4m.png",
