@@ -15,13 +15,7 @@ Skill.create({title: "SQL", desc: "This database tool is so easy and structured,
 
 User.create({username: "Skyoumans93", password: "BornThisWay1993!", email: "skyyoumans@gmail.com"})
 
-Project.create({title: "Connect Four", desc: "This was my very first project, where I created a copy of the game Connect Four, styled with Bootstrap. I forced myself to use JavaScript because it is my least proficient language. The project ended up turning out well and I recieved a great grade for it.", link_at: "http://skylarsconnectfourgame.bitballoon.com/gameboard"})
-Project.create({title: "Stream", desc: "For my second project, I created a movie streaming web site.  I used Express, Handlebars, and Materialize for this project. Definitely the most fun project I made.", link_at: "https://limitless-citadel-16097.herokuapp.com"})
-Project.create({title: "Doggo", desc: "My third project was a hit home for me. I recently had to rehome my pet and so I created this project in her name. Doggo is an application to help an owner rehome their pets. It was my first project in React and CSS and I definitly became better with React after creating it.", link_at: "https://doggo-adopts.herokuapp.com/login"})
-Project.create({title: "Muscle Memory", desc: "The final project was created using React on Rails and CSS. I soon realized that this project quickly became the most complex of all my projects, and so I was determined to make it the best. I succeeded.", link_at: "https://musclememory.herokuapp.com/"})
-
-
-img: "https://i.imgur.com/wT1aZ7zm.png",
-img: "https://i.imgur.com/FeefhTOm.png",
-img: "https://i.imgur.com/sSeXdw5m.png",
-img: "https://i.imgur.com/ELHfYR4m.png",
+Project.create({title: "Connect Four", desc: "This was my very first project, where I created a copy of the game Connect Four, styled with Bootstrap. I forced myself to use JavaScript because it is my least proficient language. The project ended up turning out well and I recieved a great grade for it.", img: "https://i.imgur.com/wT1aZ7zm.png", link_at: "https://skylarsconnectfourgame.bitballoon.com/"})
+Project.create({title: "Stream", desc: "For my second project, I created a movie streaming web site.  I used Express, Handlebars, and Materialize for this project. Definitely the most fun project I made.", img: "https://i.imgur.com/FeefhTOm.png", link_at: "https://limitless-citadel-16097.herokuapp.com"})
+Project.create({title: "Doggo", desc: "My third project was a hit home for me. I recently had to rehome my pet and so I created this project in her name. Doggo is an application to help an owner rehome their pets. It was my first project in React and CSS and I definitly became better with React after creating it.", img: "https://i.imgur.com/sSeXdw5m.png", link_at: "https://doggo-adopts.herokuapp.com/login"})
+Project.create({title: "Muscle Memory", desc: "The final project was created using React on Rails and CSS. I soon realized that this project quickly became the most complex of all my projects, and so I was determined to make it the best. I succeeded.", img: "https://i.imgur.com/ELHfYR4m.png", link_at: "https://musclememory.herokuapp.com/"})

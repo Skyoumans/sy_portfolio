@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
+import { Link, Redirect } from 'react-router-dom'
 
 class ProjectsList extends Component {
 
@@ -26,9 +26,10 @@ class ProjectsList extends Component {
           {this.state.projects.map(project => {
             return (
               <div key={project.id}>
+                
+                <h4><a href={project.link_at}><img src={project.img} /></a></h4>
                 <h4>{project.title}</h4>
                 <p>{project.desc}</p>
-                <p><Link to={project.link_at}>{project.title}</Link></p>
               </div>
             )
           })}
