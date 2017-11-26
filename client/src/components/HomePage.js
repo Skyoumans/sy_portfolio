@@ -6,8 +6,9 @@ const HomeStyle = styled.div`
   img {
     margin-bottom: 70px;
     margin-top: 35px;
-    width: 100%;
-    border-radius: 50%;
+    width: 85%;
+    border-radius: 15px;
+
   }
   margin: auto;
   text-align: center;
@@ -52,10 +53,11 @@ const HomeStyle = styled.div`
     margin: 60px;
     padding: 30px;
     border: 30px;
-    font-family: 'Corden', cursive;
-    color: #2d4e6c;
-    border-radius: 45%;
-    background-image: url('/images/triangular_@2X.png')
+    font-family: 'Quicksand', sans-serif;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    /* background-image: url('/images/triangular_@2X.png') */
     
   }
 }
@@ -77,7 +79,7 @@ class HomePage extends Component {
         <Link to="/skills">Skills</Link>
         <Link to="/projects">Projects</Link>
         <div className='centerp'>
-          <p>I am a Full Stack Juinor Developer dedicated to helping you or your business <br />succeed in creating 
+          <p>I am a Full Stack Developer dedicated to helping you or your business succeed in creating 
           interactive and user-friendly websites designed for whatever purpose(s) you need. I'm fast, fun, and friendly, but I still 
           know when its time to get things done. I can't wait to hear from you!
           
