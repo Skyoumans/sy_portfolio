@@ -1,10 +1,28 @@
 import React from 'react';
 import styled from 'styled-components'
 
+const AboutPageStyle = styled.div`
+  img {
+    float: left;
+    height: 350px;
+    margin: 20px;
+    padding-bottom: 120px
+  }
+  h1 {
+    margin-bottom: 0px;
+    text-decoration: underline;
+  }
+  font-family: 'Quicksand', sans-serif;
+  color: gold;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 70px;
+  padding: 12px;
+`
+
 const AboutPage = () => {
   return (
-    <div>
-      <img src="https://i.imgur.com/aNt2kxdb.jpg" alt="Skylars profile" />
+    <AboutPageStyle>
+      <img src="https://i.imgur.com/aNt2kxdl.jpg" alt="Skylars profile" />
       <div>
         <h1>Personal Background</h1>
         <p>
@@ -29,7 +47,7 @@ const AboutPage = () => {
         to write out any code I am working on, because more code equals longer waiting time and that takes away from a User experience. Which will not do.
         </p>
       </div>
-    </div>
+    </AboutPageStyle>
   );
 };
 
