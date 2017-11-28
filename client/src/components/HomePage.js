@@ -81,7 +81,7 @@ class HomePage extends Component {
         <div className='centerp'>
           <p>I am a Full Stack Developer dedicated to helping you or your business succeed in creating 
           interactive and user-friendly websites designed for whatever purpose(s) you need. I'm fast, fun, and friendly, but I still 
-          know when its time to get things done. I can't wait to hear from you!
+          know when its time to get things done. <br /><br />I can't wait to hear from you!
           
           </p>
         </div>

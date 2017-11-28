@@ -3,41 +3,45 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Footerstyle = styled.div`
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   margin-top: 75px;
-  height: 100px;
+  height: auto;
   background-color: #333333;
   color: #fbd334;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  .decor {
-    text-decoration: underline;
   }
   h3 {
-    size: 18px;
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  p{
+    margin: 0px -25px;
+    font-size: 13px;
   }
 `
 const LinkStyle = styled.div`
-  float: right;
-  width: 10%;
-  text-align: center;
+    float: right;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   
   a {
-    margin: 0px -25px;
+    margin: 5px -25px;
     display: flex; 
     flex-direction: column;
     justify-content: space-around;
     text-decoration: none;
     color: #fbd334;
+    font-size: 13px;
+
   }
   .decor {
     text-decoration: underline;
-      margin-bottom: auto;
-      margin-top: 9px;
+    margin-bottom: auto;
+    margin-top: 9px;
   }
 
 `

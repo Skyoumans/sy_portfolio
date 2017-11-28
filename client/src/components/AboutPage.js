@@ -1,7 +1,13 @@
 import React from 'react';
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 const AboutPageStyle = styled.div`
+  font-family: 'Quicksand', sans-serif;
+  color: gold;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 70px;
+  padding: 12px;
   img {
     float: left;
     height: 350px;
@@ -12,15 +18,30 @@ const AboutPageStyle = styled.div`
     margin-bottom: 0px;
     text-decoration: underline;
   }
-  font-family: 'Quicksand', sans-serif;
-  color: gold;
-  background-color: rgba(0, 0, 0, 0.6);
-  margin-top: 70px;
-  padding: 12px;
+`
+const BtnStyle = styled.div`
+  a {
+    background-color: #2d4e6c;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 125px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5%;
+    color: gold;
+    float: right;
+  }
 `
 
 const AboutPage = () => {
   return (
+    <div>
     <AboutPageStyle>
       <img src="https://i.imgur.com/aNt2kxdl.jpg" alt="Skylars profile" />
       <div>
@@ -29,7 +50,7 @@ const AboutPage = () => {
           I was born in Catersville, Ga in 1993. My childhood, though was spent all over the country. 
           Finally, my family settled in Asheville, NC. Upon graduating from high school, I moved back to Georgia 
           and lived with my birthmother in Macon, Ga. I spent several years relecting on myself, my future, and what my purpose was in life.
-          I learned that my reason for being here was to influence the people's lives around me in a positive way. My desire in live is to ensure their success,
+          I learned that my reason for being here was to influence the people's lives around me in a positive way. My desire in life is to ensure their success,
           whether that be in their personal or professional life.<br /><br />
           I met my partner while at the Pride festival in Atlanta and he was the one who pushed me to learn how to become a web developer. 
           I was intrigued by the subject, so I gathered some materials from the Internet on how to teach myself, ranging from books to instructional
@@ -48,6 +69,11 @@ const AboutPage = () => {
         </p>
       </div>
     </AboutPageStyle>
+    <BtnStyle>
+      <Link to="/skills">Skills</Link>
+      <Link to="/projects">Projects</Link>
+    </BtnStyle>
+    </div>
   );
 };
 
