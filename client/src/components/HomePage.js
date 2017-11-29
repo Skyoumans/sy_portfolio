@@ -8,7 +8,8 @@ const HomeStyle = styled.div`
     margin-top: 35px;
     width: 85%;
     border-radius: 15px;
-
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
   }
   margin: auto;
   text-align: center;
@@ -26,6 +27,8 @@ const HomeStyle = styled.div`
     font-size: 18px;
     border-radius: 5%;
     color: gold;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
   }
   h1 {
     display: block;
@@ -57,6 +60,8 @@ const HomeStyle = styled.div`
     color: gold;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
     /* background-image: url('/images/triangular_@2X.png') */
     
   }

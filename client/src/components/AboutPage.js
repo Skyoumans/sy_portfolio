@@ -8,11 +8,14 @@ const AboutPageStyle = styled.div`
   background-color: rgba(0, 0, 0, 0.6);
   margin-top: 70px;
   padding: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s; 
   img {
     float: left;
     height: 350px;
     margin: 20px;
-    padding-bottom: 120px
+    padding-bottom: 60px;
+    padding-top: 65px;
   }
   h1 {
     margin-bottom: 0px;
@@ -20,6 +23,7 @@ const AboutPageStyle = styled.div`
   }
 `
 const BtnStyle = styled.div`
+  text-align: center;
   a {
     background-color: #2d4e6c;
     border: none;
@@ -35,7 +39,6 @@ const BtnStyle = styled.div`
     font-size: 18px;
     border-radius: 5%;
     color: gold;
-    float: right;
   }
 `
 
@@ -70,6 +73,7 @@ const AboutPage = () => {
       </div>
     </AboutPageStyle>
     <BtnStyle>
+      <Link to="/">Home</Link>
       <Link to="/skills">Skills</Link>
       <Link to="/projects">Projects</Link>
     </BtnStyle>
